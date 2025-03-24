@@ -1,4 +1,5 @@
 import React from 'react';
+import me from '../assets/pictures/me.png';
 
 const Home = () => {
   return (
@@ -19,7 +20,11 @@ const Home = () => {
           </p>
         </div>
 
-        <div className="w-[50%] h-full bg-blue-500 flex items-center justify-center"></div>
+        <div className="w-[50%] h-full bg-blue-500 flex items-center justify-center">
+        <img src={me} alt="Me" className="w-[32rem] h-auto" />
+
+        </div>
+
       </div>
 
     </div>
