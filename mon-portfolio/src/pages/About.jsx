@@ -1,5 +1,6 @@
 import React from 'react';
 import gifArrowWhite from '../assets/gif/gifArrowWhite.gif';
+import exampleImage from '../assets/pictures/me.png'; // remplace par ton image réelle
 
 const About = () => {
   return (
@@ -39,15 +40,33 @@ const About = () => {
 
         {/* Texte à gauche : année 2010 */}
         <div className="absolute right-[calc(50%+50px)] top-[250px] text-right">
-          <p className="text-white font-semibold text-xl">2010 . .</p>
+          <p className="text-white font-semibold text-xl font-SpaceMonoBoldItalic">2010 . .</p>
         </div>
 
-        {/* Ligne horizontale reliée à la barre verticale sous 2010 */}
-        <div className="absolute right-1/2 top-[280px] left-[300px]">
-          <svg width="500" height="2" viewBox="0 0 100 2" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <line x1="0" y1="1" x2="500" y2="1" stroke="#ffffff" strokeWidth="2"/>
+        {/* Ligne horizontale reliée à la barre verticale */}
+        <div className="absolute right-1/2 top-[280px] left-[500px]">
+          <svg width="300" height="2" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <line x1="0" y1="1" x2="300" y2="1" stroke="#ffffff" strokeWidth="2"/>
           </svg>
         </div>
+
+        {/* Image à gauche au bout de la ligne horizontale */}
+        <div className="absolute left-[275px] top-[170px]">
+          <img 
+            src={exampleImage} 
+            alt="Image timeline 2010" 
+            className="w-[200px] h-[200px] object-cover"
+          />
+        </div>
+
+        {/* Texte descriptif à droite */}
+        <div className="absolute left-[calc(50%+100px)] top-[240px] w-[350px]">
+          <p className="text-white font-normal text-base">
+            Dès le plus jeune âge, j'ai développé une passion profonde pour les écrans et les jeux vidéo, 
+            ce qui a fortement influencé ma curiosité et mon intérêt pour l'univers digital.
+          </p>
+        </div>
+
       </div>
     </div>
   );
