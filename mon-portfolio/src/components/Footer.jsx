@@ -26,7 +26,7 @@ const Footer = () => {
             <img
               src={gifBlackCat}
               alt="Chat"
-              className="absolute left-2/3 top-[-75px] w-24 h-auto"
+              className="absolute left-2/3 top-[-75px] w-24 h-auto cursor-pointer"
               onClick={playMeow}
             />
           </div>
