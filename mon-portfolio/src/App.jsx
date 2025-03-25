@@ -11,23 +11,24 @@ import Contact from './pages/Contact';
 
 function App() {
   return (
-<div className="relative min-h-screen">
-
+    <div className="relative min-h-screen flex flex-col">
       <img
         src="../src/assets/pictures/backgroundPortfolio.jpg"
         alt="background"
         className="absolute top-0 left-0 w-full h-full object-cover -z-10"
       />
       <Header />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/blog" element={<Blog />} />
-        <Route path='/experience' element={<Experience />} />
-        <Route path='/contact' element={<Contact />} />
-      </Routes>
-
+      <main className="flex-grow">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/blog" element={<Blog />} />
+          <Route path="/experience" element={<Experience />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </main>
+      <Footer />
     </div>
   );
 }
