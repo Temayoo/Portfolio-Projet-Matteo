@@ -4,7 +4,7 @@ import me from '../assets/pictures/me.png';
 const Home = () => {
   return (
     <div>
-      <div className="w-full h-[500px] mx-auto flex  ">
+      <div className="w-full h-[500px] mx-auto flex mb-[10px]  ">
         <div className="w-[50%] h-full flex-col justify-center pl-40 pt-10">
           <p className="font-SpaceMonoBoldItalic text-[#d4a384] text-base">Welcome...</p>
           <h2 className="text-white font-LeagueSpartanBold text-8xl pt-5">RIVA</h2>
@@ -19,14 +19,10 @@ const Home = () => {
             suscipit vestibulum velit quam nec nibh. 
           </p>
         </div>
-
         <div className="w-[50%] h-full  flex items-center justify-center">
         <img src={me} alt="Me" className="w-[32rem] h-auto rounded-full" />
-
         </div>
-
       </div>
-
     </div>
   );
 };
