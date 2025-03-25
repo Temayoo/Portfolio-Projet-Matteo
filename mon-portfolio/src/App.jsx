@@ -15,7 +15,7 @@ function App() {
       <img
         src="../src/assets/pictures/backgroundPortfolio.jpg"
         alt="background"
-        className="absolute top-0 left-0 w-full h-full object-cover -z-10"
+        className="fixed top-0 left-0 w-full h-full object-cover -z-10"
       />
       <Header />
       <main className="flex-grow">
