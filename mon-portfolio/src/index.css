@@ -3,36 +3,36 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: 'Balmy';
-  src: url('../public/fonts/Balmy/Balmy-Beta.ttf') format('truetype');
+  font-family: "Balmy";
+  src: url("/fonts/Balmy/Balmy-Beta.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Space Mono';
-  src: url('../public/fonts/Space_Mono/SpaceMono-Regular.ttf') format('truetype');
+  font-family: "Space Mono";
+  src: url("/fonts/Space_Mono/SpaceMono-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
-@font-face{
-  font-family: 'Space Mono Bold Italic';
-  src: url('../public/fonts/Space_Mono/SpaceMono-BoldItalic.ttf') format('truetype');
+@font-face {
+  font-family: "Space Mono Bold Italic";
+  src: url("/fonts/Space_Mono/SpaceMono-BoldItalic.ttf") format("truetype");
   font-weight: bold;
   font-style: normal;
 }
 
-@font-face{
-  font-family: 'League Spartan';
-  src: url('../public/fonts/League_Spartan/LeagueSpartan-Regular.ttf') format('truetype');
+@font-face {
+  font-family: "League Spartan";
+  src: url("/fonts/League_Spartan/LeagueSpartan-Regular.ttf") format("truetype");
   font-weight: bold;
   font-style: normal;
 }
 
-@font-face{
-  font-family: 'League Spartan Bold';
-  src: url('../public/fonts/League_Spartan/LeagueSpartan-Bold.ttf') format('truetype');
+@font-face {
+  font-family: "League Spartan Bold";
+  src: url("/fonts/League_Spartan/LeagueSpartan-Bold.ttf") format("truetype");
   font-weight: bold;
   font-style: normal;
 }
